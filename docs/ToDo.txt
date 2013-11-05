@@ -1,0 +1,33 @@
+1.) Add networking support (for ping, telnet, etc.)
+2.) Add IPv6 support?
+3.) Add initial configuration questions and read file in at start.
+4.) Add tutorial mode to teach users how to perform common tasks.
+5.) Resume work on command implementation.
+6.) Ask for username, hostname, IP address, netmask, and gateway on initial configuration.
+7.) Store filesystem data in a file. Populate initially and allow recreation of a default later if the user messes it up.
+8.) Create an executable jar.
+9.) Make available as a web applet?
+10.) Make network access configurable (true/false) for ping, telnet, etc.
+11.) Initially root only and add support for other users later for su, etc.
+12.) Virtual filesystem consists of directory vectors (change to ArrayList later if no networking support) of file objects.
+13.) File objects contain information like mtime, ctime, atime, permissions, owner, group, type (binary, ASCII text, etc.), inode/id...
+14.) Filesystems consist of vectors of directory vectors (ArrayLists if no networking support.)
+15.) For the Java applet, make a separate thread to make the cursor blink (green font on black background.)
+16.) Add support for pipes and redirection.
+17.) Add GUI mode with progress bar.
+18.) Menu with quit/exit and about bar.
+19.) Add honeypot mode with logging (h4x0r would be stuck in sandboxed jvm) for security research (requires networking support.)
+20.) Ask Aaron to make an icon and logo with backdrop and Tux(tm).
+21.) Add colored output using terminal control codes in text mode?
+22.) Convert series of if/else statements in Command.java to HashMap or find a more efficient way to look up commands.
+23.) Add "date" command using Java Date class to return output.
+24.) Add configurable /etc/hostname.
+25.) Add configurable /etc/timezone.
+26.) Add X Windows JFrame background with Toolkit createCustomCursor() method using the 'X' mouse cursor and also displaying an xterm with shell prompt in a JPanel.
+27.) Add GUI apps that launch as a thread within X Window mode like xcalc.
+28.) Add backup option (to restore system settings and filesystem state later.)
+29.) Read and write group/user/directory/command.dat files in binary.
+30.) Add localization support.
+31.) Pack .dat files into executable jar.
+32.) Create Process class for adding/removing processes and storing process status.
+33.) Prevent PID collisions.
