@@ -32,6 +32,17 @@ public class User
   private String cwd="/"; // current working directory -- ToDo: populate as user navigates filesystem
   private String path="/bin:/usr/bin:/usr/local/bin";
   private String prompt=username + '@' + System.hostname + ':' + cwd + "$ ";
+  private String password_hash;
+  private String comment;
+  private String home_directory;
+  private int uid;
+  private int gid;
+  private int last_change; // password last change date (days since 01/01/1970)
+  private int min_days;    // minimum number of days between password changes
+  private int max_days;    // maximum number of days before password expires
+  private int warn_days;   // number of days to warn user prior to password expiry
+  private int inact_days;  // number of inactive days after password expiry before the account is disabled
+  private int expire_days; // number of days since 01/01/1970 when the account becomes disabled
 
   public String getCwd()
   {
