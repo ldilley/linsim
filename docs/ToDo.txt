@@ -31,3 +31,5 @@
 31.) Pack .dat files into executable jar.
 32.) Create Process class for adding/removing processes and storing process status.
 33.) Prevent PID collisions.
+34.) Implement multi-threaded network listener/thread per socket approach.
+35.) Add telnet server initially (SSH (Apache MINA?), web, etc.) later
