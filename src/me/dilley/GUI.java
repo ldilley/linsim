@@ -2,7 +2,7 @@
  * $Id: GUI.java 4 2011-12-13 15:37:54Z ldilley $
  * LinSim - The Linux Simulator
  * Copyright (C) 2011 Lloyd S. Dilley <lloyd@dilley.me>
- * http://www.devux.org/projects/linsim/
+ * https://github.com/ldilley/linsim
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
  * @author Lloyd S. Dilley
  */
 
-package org.devux;
+package me.dilley;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -48,7 +48,7 @@ public class GUI
                        "<body>\n" +
                        "<center>\n" +
                        "<p>\n" +
-                       "<b>LinSim " + LinSim.VERSION + " - <i>The Linux Simulator</i></b><br><br>\n" +
+                       "<b>LinSim " + LinSim.version + " - <i>The Linux Simulator</i></b><br><br>\n" +
                        "Author: Lloyd S. Dilley<br><br>\n" +
                        "Copyright &copy; 2011\n<br><br>" +
                        "<a href=\"http://www.dilley.me/linsim/\">http://www.dilley.me/linsim/</a>\n" +
