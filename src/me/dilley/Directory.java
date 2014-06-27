@@ -264,11 +264,11 @@ public class Directory
       java.lang.System.out.println("The directories.dat file could not be found.");
       java.lang.System.exit(1);
     }
-    catch(IOException IOE)
-    {
-      java.lang.System.out.println("The directories.dat file could not be read.");
-      java.lang.System.exit(1);
-    }
+    //catch(IOException IOE)
+    //{
+    //  java.lang.System.out.println("The directories.dat file could not be read.");
+    //  java.lang.System.exit(1);
+    //}
     return;
   }
 }
