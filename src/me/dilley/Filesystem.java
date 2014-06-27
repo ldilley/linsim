@@ -2,7 +2,7 @@
  * $Id: Filesystem.java 6 2011-12-21 03:44:13Z ldilley $
  * LinSim - The Linux Simulator
  * Copyright (C) 2011 Lloyd S. Dilley <lloyd@dilley.me>
- * http://www.devux.org/projects/linsim/
+ * https://github.com/ldilley/linsim
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,7 +24,7 @@
  * @version $Revision: 14 $
  */
 
-package org.devux;
+package me.dilley;
 
 // Imports
 import java.util.BitSet; // Needed for file/directory permissions

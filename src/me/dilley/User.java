@@ -2,7 +2,7 @@
  * $Id: User.java 14 2013-11-05 10:22:22Z ldilley $
  * LinSim - The Linux Simulator
  * Copyright (C) 2011 Lloyd S. Dilley <lloyd@dilley.me>
- * http://www.devux.org/projects/linsim/
+ * https://github.com/ldilley/linsim
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,7 @@
  * @author Lloyd S. Dilley
  */
 
-package org.devux;
+package me.dilley;
 
 // This class holds user properties
 public class User
