@@ -48,7 +48,7 @@ public class GUI
                        "<body>\n" +
                        "<center>\n" +
                        "<p>\n" +
-                       "<b>LinSim " + LinSim.version + " - <i>The Linux Simulator</i></b><br><br>\n" +
+                       "<b>LinSim " + LinSim.VERSION + " - <i>The Linux Simulator</i></b><br><br>\n" +
                        "Author: Lloyd S. Dilley<br><br>\n" +
                        "Copyright &copy; 2011\n<br><br>" +
                        "<a href=\"http://www.dilley.me/linsim/\">http://www.dilley.me/linsim/</a>\n" +
@@ -167,8 +167,8 @@ JScrollPane scrollPane=new JScrollPane(scrollbackBuffer, ScrollPaneConstants.VER
       {
         //commandInput.setText(Command.prompt);
         //StringTokenizer token=new StringTokenizer(commandInput.getText(), " \t");
-        String commandOutput=CommandParser.parse(commandInput.getText());
-        scrollbackBuffer.append(commandInput.getText() + "\n" + commandOutput);
+        //String commandOutput=CommandParser.parse(commandInput.getText());
+        //scrollbackBuffer.append(commandInput.getText() + "\n" + commandOutput);
         scrollbackBuffer.setCaretPosition(scrollbackBuffer.getDocument().getLength());
         commandInput.setText("");
         //commandInput.setText(Command.prompt);
